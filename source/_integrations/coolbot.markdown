@@ -10,6 +10,7 @@ ha_codeowners:
   - '@strulock'
 ha_domain: coolbot
 ha_platforms:
+  - diagnostics
   - sensor
 ha_integration_type: hub
 ha_quality_scale: bronze
@@ -112,6 +113,8 @@ automation:
 ## Troubleshooting
 
 If sensors stay unavailable, check the **Wi-Fi signal** sensor (disabled by default). Below about −80 dBm, expect dropouts; the CoolBot app warns below 15% on its own scale.
+
+The integration supports downloading [diagnostics](/docs/configuration/troubleshooting/#download-diagnostics) from the device page. The download includes each cooler's data age, whether its readings are considered fresh, and the last disconnect time, with credentials and identifiers redacted.
 
 ## Removing the integration
 
