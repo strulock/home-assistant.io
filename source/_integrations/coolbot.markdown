@@ -118,3 +118,5 @@ If sensors stay unavailable, check the **Wi-Fi signal** sensor (disabled by defa
 This integration follows standard integration removal. No extra steps are required, and nothing on the CoolBot account is modified.
 
 {% include integrations/remove_device_service.md %}
+
+If a cooler is removed from your CoolBot account, its device can be deleted from the device page in Home Assistant once it stops being reported.
