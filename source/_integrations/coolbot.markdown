@@ -32,7 +32,7 @@ Password:
   description: The password of your CoolBot Pro account.
 {% endconfiguration_basic %}
 
-Credentials are verified against the CoolBot service before the entry is created. To change them later, remove the integration and add it again with the new credentials.
+Credentials are verified against the CoolBot service before the entry is created. To change them later, use **Reconfigure** on the integration entry; if the password stops working, Home Assistant prompts for a new one automatically.
 
 ## Supported functionality
 
